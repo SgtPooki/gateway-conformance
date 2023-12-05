@@ -4,7 +4,7 @@ package main
 import (
 	"os"
 
-	cli "github.com/ipfs/gateway-conformance/cmd/gateway-conformance"
+	cli "github.com/SgtPooki/gateway-conformance/cmd/gateway-conformance"
 )
 
 func main() {
