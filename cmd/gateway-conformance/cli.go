@@ -1,10 +1,9 @@
-package main
+package cmd
 
 import (
 	"bytes"
 	"fmt"
 	"io"
-	"log"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -68,7 +67,7 @@ func copyFiles(inputPaths []string, outputDirectoryPath string) error {
 	return nil
 }
 
-func main() {
+func Cli() *cli.App {
 	var gatewayURL string
 	var subdomainGatewayURL string
 	var jsonOutput string
@@ -78,7 +77,7 @@ func main() {
 	var merged bool
 	var verbose bool
 
-	app := &cli.App{
+	return &cli.App{
 		Name:    "gateway-conformance",
 		Usage:   "Tooling for the gateway test suite",
 		Version: tooling.Version,
@@ -298,9 +297,5 @@ func main() {
 				},
 			},
 		},
-	}
-
-	if err := app.Run(os.Args); err != nil {
-		log.Fatal(err)
 	}
 }
