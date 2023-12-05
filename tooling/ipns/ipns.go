@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/ipfs/gateway-conformance/tooling/fixtures"
+	"github.com/SgtPooki/gateway-conformance/tooling/fixtures"
 )
 
 /**

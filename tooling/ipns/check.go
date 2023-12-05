@@ -3,8 +3,8 @@ package ipns
 import (
 	"fmt"
 
-	"github.com/ipfs/gateway-conformance/tooling/check"
-	"github.com/ipfs/gateway-conformance/tooling/tmpl"
+	"github.com/SgtPooki/gateway-conformance/tooling/check"
+	"github.com/SgtPooki/gateway-conformance/tooling/tmpl"
 )
 
 var _ check.Check[[]byte] = &CheckIsIPNSRecord{}

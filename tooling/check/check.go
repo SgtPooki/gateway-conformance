@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ipfs/gateway-conformance/tooling/tmpl"
+	"github.com/SgtPooki/gateway-conformance/tooling/tmpl"
 )
 
 // Base Structure

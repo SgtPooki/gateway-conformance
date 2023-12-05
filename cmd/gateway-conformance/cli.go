@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	"github.com/ipfs/gateway-conformance/tooling/car"
-	"github.com/ipfs/gateway-conformance/tooling/dnslink"
-	"github.com/ipfs/gateway-conformance/tooling/fixtures"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling/car"
+	"github.com/SgtPooki/gateway-conformance/tooling/dnslink"
+	"github.com/SgtPooki/gateway-conformance/tooling/fixtures"
 	"github.com/urfave/cli/v2"
 )
 
@@ -134,7 +134,7 @@ func Cli() *cli.App {
 						args = append(args, fmt.Sprintf("-specs=%s", specs))
 					}
 
-					ldFlag := fmt.Sprintf("-ldflags=-X github.com/ipfs/gateway-conformance/tooling.Version=%s -X github.com/ipfs/gateway-conformance/tooling.JobURL=%s", tooling.Version, jobURL)
+					ldFlag := fmt.Sprintf("-ldflags=-X github.com/SgtPooki/gateway-conformance/tooling.Version=%s -X github.com/SgtPooki/gateway-conformance/tooling.JobURL=%s", tooling.Version, jobURL)
 					args = append(args, ldFlag)
 
 					args = append(args, cCtx.Args().Slice()...)

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling/test"
 )
 
 func StandardCARTestTransforms(t *testing.T, sts test.SugarTests) test.SugarTests {

@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	"github.com/ipfs/gateway-conformance/tooling/specs"
-	. "github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling/specs"
+	. "github.com/SgtPooki/gateway-conformance/tooling/test"
 )
 
 func TestCors(t *testing.T) {

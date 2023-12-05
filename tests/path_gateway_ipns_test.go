@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	. "github.com/ipfs/gateway-conformance/tooling/ipns"
-	"github.com/ipfs/gateway-conformance/tooling/specs"
-	. "github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	. "github.com/SgtPooki/gateway-conformance/tooling/ipns"
+	"github.com/SgtPooki/gateway-conformance/tooling/specs"
+	. "github.com/SgtPooki/gateway-conformance/tooling/test"
 	"github.com/ipfs/go-cid"
 	"github.com/multiformats/go-multihash"
 )

@@ -4,14 +4,14 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	"github.com/ipfs/gateway-conformance/tooling/car"
-	. "github.com/ipfs/gateway-conformance/tooling/check"
-	"github.com/ipfs/gateway-conformance/tooling/dnslink"
-	"github.com/ipfs/gateway-conformance/tooling/helpers"
-	"github.com/ipfs/gateway-conformance/tooling/specs"
-	. "github.com/ipfs/gateway-conformance/tooling/test"
-	"github.com/ipfs/gateway-conformance/tooling/tmpl"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling/car"
+	. "github.com/SgtPooki/gateway-conformance/tooling/check"
+	"github.com/SgtPooki/gateway-conformance/tooling/dnslink"
+	"github.com/SgtPooki/gateway-conformance/tooling/helpers"
+	"github.com/SgtPooki/gateway-conformance/tooling/specs"
+	. "github.com/SgtPooki/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling/tmpl"
 )
 
 func TestDNSLinkGatewayUnixFSDirectoryListing(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling/test"
 )
 
 /**

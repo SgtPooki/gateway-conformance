@@ -3,8 +3,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	"github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling/test"
 )
 
 func logGatewayURL(t *testing.T) {

@@ -35,7 +35,7 @@ import (
 	"github.com/ipld/go-ipld-prime/multicodec"
 	mc "github.com/multiformats/go-multicodec"
 
-	"github.com/ipfs/gateway-conformance/tooling/fixtures"
+	"github.com/SgtPooki/gateway-conformance/tooling/fixtures"
 )
 
 type UnixfsDag struct {

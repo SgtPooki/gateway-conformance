@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/gateway-conformance/tooling"
-	"github.com/ipfs/gateway-conformance/tooling/specs"
+	"github.com/SgtPooki/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling/specs"
 )
 
 type SugarTest struct {

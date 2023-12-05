@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ipfs/gateway-conformance/tooling/specs"
+	"github.com/SgtPooki/gateway-conformance/tooling/specs"
 )
 
 type specsFlag string

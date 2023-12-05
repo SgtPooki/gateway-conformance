@@ -6,7 +6,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ipfs/gateway-conformance/tooling/fixtures"
+	"github.com/SgtPooki/gateway-conformance/tooling/fixtures"
 	"gopkg.in/yaml.v3"
 )
 

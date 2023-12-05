@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling/check"
+	"github.com/SgtPooki/gateway-conformance/tooling/check"
 )
 
 type testCheckOutput struct {

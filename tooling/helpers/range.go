@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/gateway-conformance/tooling/check"
-	"github.com/ipfs/gateway-conformance/tooling/test"
+	"github.com/SgtPooki/gateway-conformance/tooling/check"
+	"github.com/SgtPooki/gateway-conformance/tooling/test"
 )
 
 // parseRange parses a ranges header in the format "bytes=from-to" and returns

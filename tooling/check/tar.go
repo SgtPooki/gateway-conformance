@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ipfs/gateway-conformance/tooling/tmpl"
+	"github.com/SgtPooki/gateway-conformance/tooling/tmpl"
 )
 
 var _ Check[[]byte] = &CheckIsTarFile{}

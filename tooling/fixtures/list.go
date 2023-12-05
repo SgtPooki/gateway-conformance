@@ -5,7 +5,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/ipfs/gateway-conformance/tooling"
+	"github.com/SgtPooki/gateway-conformance/tooling"
 )
 
 func Dir() string {
