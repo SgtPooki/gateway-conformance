@@ -1,4 +1,4 @@
-module github.com/ipfs/gateway-conformance
+module github.com/SgtPooki/gateway-conformance
 
 go 1.20
 
